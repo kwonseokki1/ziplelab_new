@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/header/Header";
+import SetViewPortProvider from "./SetViewPortProvider";
+import Section1 from "./pages/main/section1/Section1";
+import Section2 from "./pages/main/section2/Section2";
+import Section3 from "./pages/main/section3/Section3";
+import Section4 from "./pages/main/section4/Section4";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <SetViewPortProvider component={Section1} />
+      <SetViewPortProvider component={Section2} height={"70vh"} />
+      <SetViewPortProvider component={Section3} />
+      <SetViewPortProvider component={Section4} />
     </div>
   );
 }

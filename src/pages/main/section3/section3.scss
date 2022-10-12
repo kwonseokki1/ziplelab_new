@@ -1,0 +1,60 @@
+.content03-ziple-info {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 900px;
+    min-width: 400px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+        font-size: 2rem;
+        color: #b0b8c1;
+
+        b {
+            color: skyblue;
+        }
+    }
+
+    h3 {
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 2rem;
+        margin-top: 0px;
+    }
+}
+
+.section3-ziple-service {
+    height: 100vh;
+    width: 80%;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+  
+    .section3-ziple-service-txt {
+        position:relative;
+        top:0;
+        width: 30%;
+        float: left;
+        margin:0;
+        height:425px;
+   
+        h3 {
+            margin-top:0;
+            font-size: 1.8rem;
+            color: #ffffff;
+        }
+
+        h2 {
+            font-size: 3rem;
+            color: #ffffff;
+        }
+    
+}
+}
